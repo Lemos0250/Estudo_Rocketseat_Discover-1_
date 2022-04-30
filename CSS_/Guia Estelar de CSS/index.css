@@ -1,0 +1,59 @@
+* {
+    margin: 0; /* Bota o conteúdo nó inicio da página */
+}
+
+#container {
+    width: 1000px;
+}
+
+.m-40 { 
+    margin: 40px;
+}
+
+h1 {
+    color: purple; /* Torna a Cor do h1 Roxo */
+    font-size: 60px; /* Aumenta a Fonte do h1 */
+    background: black; /* Torna o Fundo do h1 Cinza */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    /* Muda a fonte da Escrita */
+}
+
+h3 {
+    border: 10px solid red; 
+    /* Cria uma Borda do Tipo Solid de grossura de 1px cuja cor é vermelha. */ 
+    margin: 200px;
+    /* Cria um espaço envolta da Caixa */
+    padding: 60px;
+    /* Cria um Espço por dentro da Caixa */
+}
+
+/* 
+Seletor Global: '*'
+Selecionar Elemento: 'h1, h2, p, div'
+Selecionar Id: '#Box, #Container'
+Selecionar Classe: '.red, .m4-a1'
+
+Modelo Castaca: 'O css é lido de cima pra baixo e o <style> no HTML é o segundo mais forte após o Style na propa TAG'
+
+* {} Tem nível 0 Independente da posição
+.1.Inline 2.ID 3.Class (Nível de Força)
+.!Important (Nível de Força Máximo) Só use na Biblioteca de outra Pessoa
+
+1.
+@import Inclue um Css Externo
+@import url("http://local.com/style.css)
+
+2.
+@media Inclue Regras condiçionais para Diversos Dispositívos 
+@media (min-widith: 500px) {
+    //Rules
+}
+
+3.
+@keyframes
+@keyframes nameofanimation {
+    //Rules
+}
+
+shorthand = usado para Simplificar o Font, Background e outras propriedades
+*/
